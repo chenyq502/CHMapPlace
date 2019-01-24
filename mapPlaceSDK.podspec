@@ -7,10 +7,10 @@
 #
 
 Pod::Spec.new do |s|
-s.name         = "CHMapPlace"    #存储库名称
+s.name         = "mapPlaceSDK"    #存储库名称
 s.version      = "0.0.1"      #版本号，与tag值一致
-s.summary      = "a repository demo"  #简介
-s.description  = "a repository demo"  #描述
+s.summary      = "a summary of repository demo"  #简介
+s.description  = "a description of repository demo"  #描述
 s.homepage     = "https://github.com/chenyq502/CHMapPlace"      #项目主页，不是git地址
 s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
 s.author             = { "chenyueqing" => "cyq502@sina.com" }  #作者
