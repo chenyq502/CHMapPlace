@@ -1,0 +1,6 @@
+framework module ERMapPlacesSDK {
+  umbrella header "ERMapPlacesSDK.h"
+
+  export *
+  module * { export * }
+}
