@@ -20,5 +20,6 @@ s.source       = { :git => "https://github.com/chenyq502/CHMapPlace.git", :tag =
 s.vendored_frameworks = "MapPlaceSDK/ERMapBaseSDK.framework"
 s.requires_arc = true #是否支持ARC
 s.xcconfig = {'BITCODE_GENERATION_MODE' => 'bitcode'}
+s.frameworks = "Foundation", "UIKit"
 #s.dependency "Masonry", "~> 1.0.0"    #所依赖的第三方库，没有就不用写
 end
