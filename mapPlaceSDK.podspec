@@ -13,7 +13,6 @@ s.summary      = "a summary of repository demo"  #简介
 s.description  = "a description of repository demo"  #描述
 s.homepage     = "https://github.com/chenyq502/CHMapPlace"      #项目主页，不是git地址
 s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
-#s.license      = { :type => "Commercial", :text => "©2016 Tencent.com"}
 s.author             = { "chenyueqing" => "cyq502@sina.com" }  #作者
 s.platform     = :ios, "8.0"                  #支持的平台和版本号
 s.source       = { :git => "https://github.com/chenyq502/CHMapPlace.git", :tag => "0.0.3" }         #存储库的git地址，以及tag值
@@ -21,6 +20,6 @@ s.source       = { :git => "https://github.com/chenyq502/CHMapPlace.git", :tag =
 s.vendored_frameworks = "MapPlaceSDK/ERMapBaseSDK.framework"
 s.frameworks = "Foundation"
 s.requires_arc = true #是否支持ARC
-#s.xcconfig = {'BITCODE_GENERATION_MODE' => 'bitcode'}
+s.xcconfig = {'BITCODE_GENERATION_MODE' => 'bitcode'}
 #s.dependency "Masonry", "~> 1.0.0"    #所依赖的第三方库，没有就不用写
 end
